@@ -9,7 +9,7 @@ android {
         versionCode 1
         versionName "0.0.1-SNAPSHOT"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        // Add here the manifestPlaceholders with a Gradle property
+        manifestPlaceholders = [onlineMapsKey: project.getProperty("online.maps.key")]
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

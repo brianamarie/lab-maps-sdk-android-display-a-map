@@ -3,7 +3,7 @@
 
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
 
-    <!-- Add here the meta-data tag using a manifestPlaceholder for the TomTom Maps API key -->
+    <meta-data android:name="OnlineMaps.Key" android:value="${onlineMapsKey}" />
 
     <activity android:name=".MainActivity" android:label="@string/app_name" android:theme="@style/AppTheme.NoActionBar">
       <intent-filter>

@@ -1,6 +1,6 @@
 package com.tomtom.online.sdk.displaymap;
 
-// Add here the TomtomMap import
+import com.tomtom.online.sdk.map.TomtomMap;
 // Add here the OnMapReadyCallback import
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity
 // Implement here the MainActivity with OnMapReadyCallback
 {
-  // Add here the TomtomMap member
+  private TomtomMap tomtomMap;
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
